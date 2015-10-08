@@ -18,7 +18,7 @@ namespace RobotEurobot2015 {
         /// <summary>The Breakout TB10 module (not connected).</summary>
         private Gadgeteer.Modules.GHIElectronics.BreakoutTB10 breakoutTB10;
         
-        /// <summary>The Display T35 module (not connected).</summary>
+        /// <summary>The Display T35 module using sockets 10, 11, 12 and 13 of the mainboard.</summary>
         private Gadgeteer.Modules.GHIElectronics.DisplayT35 displayT35;
         
         /// <summary>The Gyro module (not connected).</summary>
@@ -62,7 +62,7 @@ namespace RobotEurobot2015 {
         
         private void InitializeModules() {
             Microsoft.SPOT.Debug.Print("The module \'breakoutTB10\' was not connected in the designer and will be null.");
-            Microsoft.SPOT.Debug.Print("The module \'displayT35\' was not connected in the designer and will be null.");
+            this.displayT35 = new GTM.GHIElectronics.DisplayT35(10, 11, 12, 13);
             Microsoft.SPOT.Debug.Print("The module \'gyro\' was not connected in the designer and will be null.");
             Microsoft.SPOT.Debug.Print("The module \'roboClaw\' was not connected in the designer and will be null.");
             Microsoft.SPOT.Debug.Print("The module \'compass\' was not connected in the designer and will be null.");

@@ -62,16 +62,40 @@
       <module Id="04d02120-bd2c-4b17-88c4-3752171d1ef9" cachedDefinition="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ModuleDefinition xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; Name=&quot;Display T35&quot; Manufacturer=&quot;GHI Electronics&quot; Description=&quot;A DisplayT35 module&quot; Type=&quot;Gadgeteer.Modules.GHIElectronics.DisplayT35&quot; HardwareVersion=&quot;1.0&quot; Image=&quot;D:\Program Files (x86)\GHI Electronics\.NET Gadgeteer SDK\Modules\DisplayT35\Image.jpg&quot; BoardWidth=&quot;78&quot; BoardHeight=&quot;83&quot; MinimumGadgeteerCoreVersion=&quot;2.43.800&quot; HelpUrl=&quot;http://www.ghielectronics.com/catalog/product/276&quot; UniqueId=&quot;dd76cb2f-a7ce-407a-8890-5cb10e2cc44a&quot; InstanceName=&quot;displayT35&quot; ModuleSuppliesPower=&quot;false&quot;&gt;&#xD;&#xA;  &lt;Power&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;3.3&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0.15&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0.15&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;    &lt;PowerRequirements Voltage=&quot;5&quot;&gt;&#xD;&#xA;      &lt;TypicalCurrent&gt;0&lt;/TypicalCurrent&gt;&#xD;&#xA;      &lt;MaximumCurrent&gt;0&lt;/MaximumCurrent&gt;&#xD;&#xA;    &lt;/PowerRequirements&gt;&#xD;&#xA;  &lt;/Power&gt;&#xD;&#xA;  &lt;ProvidedSockets /&gt;&#xD;&#xA;  &lt;Assemblies&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.2&quot; Name=&quot;GTM.GHIElectronics.DisplayT35&quot; /&gt;&#xD;&#xA;    &lt;Assembly MFVersion=&quot;4.3&quot; Name=&quot;GTM.GHIElectronics.DisplayT35&quot; /&gt;&#xD;&#xA;  &lt;/Assemblies&gt;&#xD;&#xA;  &lt;LibrariesProvided /&gt;&#xD;&#xA;  &lt;Sockets&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;72.88&quot; Top=&quot;50.07&quot; TypesLabel=&quot;R&quot; ConstructorOrder=&quot;1&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;R&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;7&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;8&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;9&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;72.88&quot; Top=&quot;35.62&quot; TypesLabel=&quot;G&quot; ConstructorOrder=&quot;2&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;G&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;7&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;8&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;9&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;72.88&quot; Top=&quot;21.3&quot; TypesLabel=&quot;B&quot; ConstructorOrder=&quot;3&quot; Optional=&quot;false&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;B&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;7&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;8&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;9&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;    &lt;Socket Orientation=&quot;180&quot; Left=&quot;72.88&quot; Top=&quot;64.51&quot; TypesLabel=&quot;T&quot; ConstructorOrder=&quot;4&quot; Optional=&quot;true&quot;&gt;&#xD;&#xA;      &lt;Types&gt;&#xD;&#xA;        &lt;Type&gt;T&lt;/Type&gt;&#xD;&#xA;      &lt;/Types&gt;&#xD;&#xA;      &lt;Pins&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;3&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;4&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;5&lt;/Pin&gt;&#xD;&#xA;        &lt;Pin Shared=&quot;false&quot;&gt;6&lt;/Pin&gt;&#xD;&#xA;      &lt;/Pins&gt;&#xD;&#xA;    &lt;/Socket&gt;&#xD;&#xA;  &lt;/Sockets&gt;&#xD;&#xA;  &lt;ExtraLibrariesRequired /&gt;&#xD;&#xA;&lt;/ModuleDefinition&gt;" name="displayT35" moduleType="Gadgeteer.Modules.GHIElectronics.DisplayT35" moduleDefinitionId="dd76cb2f-a7ce-407a-8890-5cb10e2cc44a">
         <socketUses>
           <moduleHasSocketUses Id="f897f568-1845-4405-9060-8515f54a7c01">
-            <socketUse Id="eec8fcb4-bdfe-4168-8c65-a824a8a288e8" label="R" />
+            <socketUse Id="eec8fcb4-bdfe-4168-8c65-a824a8a288e8" label="R">
+              <socket>
+                <socketUseReferencesSocket Id="49d00a0a-72f4-4c69-a55e-732326b82001">
+                  <socketMoniker Id="5d6c8401-f22c-4901-aeec-3d289074edbb" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
           </moduleHasSocketUses>
           <moduleHasSocketUses Id="8ff0f108-488c-4bc7-9273-fb6c0f15ba3e">
-            <socketUse Id="98614935-01fc-46a2-88cf-2217e2fff2a6" label="G" />
+            <socketUse Id="98614935-01fc-46a2-88cf-2217e2fff2a6" label="G">
+              <socket>
+                <socketUseReferencesSocket Id="c55cb537-b326-4aa0-bedb-ff8271d11892">
+                  <socketMoniker Id="ee38e9fa-adbe-4495-825b-0874af812246" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
           </moduleHasSocketUses>
           <moduleHasSocketUses Id="aa66f3f8-3024-4ac1-8a7d-f14de478a700">
-            <socketUse Id="9a319e3f-e5f6-4cf6-aa11-1305c3686edf" label="B" />
+            <socketUse Id="9a319e3f-e5f6-4cf6-aa11-1305c3686edf" label="B">
+              <socket>
+                <socketUseReferencesSocket Id="056f26b7-7d92-41bd-8172-d4d7a2b30995">
+                  <socketMoniker Id="60b0e9a6-a95a-4c45-8139-70cc6413e65e" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
           </moduleHasSocketUses>
           <moduleHasSocketUses Id="fb38cf31-cedd-4ae6-a008-2a4907b89fc8">
-            <socketUse Id="f51aa374-ad14-4370-867d-275468278eab" label="T" />
+            <socketUse Id="f51aa374-ad14-4370-867d-275468278eab" label="T">
+              <socket>
+                <socketUseReferencesSocket Id="a8d49038-26ad-4d29-86ac-a13510abbf57">
+                  <socketMoniker Id="f19def1b-501a-4ea1-89a1-bfc123fe0320" />
+                </socketUseReferencesSocket>
+              </socket>
+            </socketUse>
           </moduleHasSocketUses>
         </socketUses>
       </module>
