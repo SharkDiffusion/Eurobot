@@ -1,0 +1,32 @@
+<ASX version = "3.0" >
+<TITLE>[radio.wazee] www.wazee.org</TITLE>
+<ENTRY>
+<TITLE>[radio.wazee] Denver (0.2% load)</TITLE>
+<BANNER HREF = "http://www.wazee.org/wm-wazee.bmp">
+	<ABSTRACT>Go to www.wazee.org</ABSTRACT>
+	<MOREINFO  HREF = "http://www.wazee.org" />
+</BANNER>
+<AUTHOR>Check out www.wazee.org</AUTHOR>
+<ref href="http://69.163.35.103:8080/wazee_192" />
+</ENTRY>
+<ENTRY>
+<TITLE>[radio.wazee] Washington D.C. (% load)</TITLE>
+<BANNER HREF = "http://www.wazee.org/wm-wazee.bmp">
+	<ABSTRACT>Go to www.wazee.org</ABSTRACT>
+	<MOREINFO  HREF = "http://www.wazee.org" />
+</BANNER>
+<AUTHOR>Check out www.wazee.org</AUTHOR>
+<ref href="http://icecast.relay.managemydedi.com:8000/wazee_192" />
+</ENTRY>
+<ENTRY>
+<TITLE>[radio.wazee] Portland, OR (% load)</TITLE>
+<BANNER HREF = "http://www.wazee.org/wm-wazee.bmp">
+	<ABSTRACT>Go to www.wazee.org</ABSTRACT>
+	<MOREINFO  HREF = "http://www.wazee.org" />
+</BANNER>
+<AUTHOR>Check out www.wazee.org</AUTHOR>
+<ref href="http://duff.act3d.com/wazee_192" />
+</ENTRY>
+
+
+</ASX>
