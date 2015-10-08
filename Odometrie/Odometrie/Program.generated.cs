@@ -15,6 +15,12 @@ namespace Odometrie {
     
     public partial class Program : Gadgeteer.Program {
         
+        /// <summary>The RoboClaw module (not connected).</summary>
+        private Gadgeteer.Modules.OrionRobotics.RoboClaw roboClaw;
+        
+        /// <summary>The Breakout TB10 module (not connected).</summary>
+        private Gadgeteer.Modules.GHIElectronics.BreakoutTB10 breakoutTB10;
+        
         /// <summary>This property provides access to the Mainboard API. This is normally not necessary for an end user program.</summary>
         protected new static GHIElectronics.Gadgeteer.FEZHydra Mainboard {
             get {
@@ -37,6 +43,8 @@ namespace Odometrie {
         }
         
         private void InitializeModules() {
+            Microsoft.SPOT.Debug.Print("The module \'roboClaw\' was not connected in the designer and will be null.");
+            Microsoft.SPOT.Debug.Print("The module \'breakoutTB10\' was not connected in the designer and will be null.");
         }
     }
 }

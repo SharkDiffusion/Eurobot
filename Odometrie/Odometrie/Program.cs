@@ -11,6 +11,8 @@ using Microsoft.SPOT.Touch;
 using Gadgeteer.Networking;
 using GT = Gadgeteer;
 using GTM = Gadgeteer.Modules;
+using Gadgeteer.Modules.OrionRobotics;
+using Gadgeteer.Modules.GHIElectronics;
 
 namespace Odometrie
 {
