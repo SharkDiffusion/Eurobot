@@ -18,25 +18,56 @@ namespace Braitenberg
 {
     public partial class Program
     {
+        GT.Timer timer = new GT.Timer(100);
+        GT.SocketInterfaces.AnalogInput capteurDroite;
+        GT.SocketInterfaces.AnalogInput capteurCentre;
+        GT.SocketInterfaces.AnalogInput capteurGauche;
+        int vitesseMax = 64;
+
         // This method is run when the mainboard is powered up or reset.   
         void ProgramStarted()
         {
-            /*******************************************************************************************
-            Modules added in the Program.gadgeteer designer view are used by typing 
-            their name followed by a period, e.g.  button.  or  camera.
-            
-            Many modules generate useful events. Type +=<tab><tab> to add a handler to an event, e.g.:
-                button.ButtonPressed +=<tab><tab>
-            
-            If you want to do something periodically, use a GT.Timer and handle its Tick event, e.g.:
-                GT.Timer timer = new GT.Timer(1000); // every second (1000ms)
-                timer.Tick +=<tab><tab>
-                timer.Start();
-            *******************************************************************************************/
-
-
+            capteurDroite = BrkCapteurs.CreateAnalogInput(GT.Socket.Pin.Three);
+            capteurCentre = BrkCapteurs.CreateAnalogInput(GT.Socket.Pin.Five);
+            capteurGauche = BrkCapteurs.CreateAnalogInput(GT.Socket.Pin.Four);
             // Use Debug.Print to show messages in Visual Studio's "Output" window during debugging.
             Debug.Print("Program Started");
+
+            double capteurDroiteValue = capteurDroite.ReadProportion();
+            double capteurCentreValue = capteurCentre.ReadProportion();
+            double capteurGaucheValue = capteurGauche.ReadProportion();
+
+            roboClaw.Configure(38400, GT.SocketInterfaces.SerialParity.None, GT.SocketInterfaces.SerialStopBits.One, 8);
+            if (!roboClaw.IsOpen())
+            {
+                roboClaw.Open();
+            }          
+        }
+
+        void AvanceMoteurGauche(double _pValeurCapteur)
+        {
+            int vitesse = vitesseMax * (int)_pValeurCapteur;
+            roboClaw.M1Speed(vitesse);
+        }
+
+        void AvanceMoteurDroit(double _pValeurCapteur)
+        {
+            int vitesse = vitesseMax * (int)_pValeurCapteur;
+            roboClaw.M1Speed(vitesse);
+        }
+
+        void RalentirMoteur(double _pValeurCapteur) 
+        {
+            int vitesse = vitesseMax * (int)_pValeurCapteur;
+            roboClaw.MixedSpeed(vitesse, vitesse);
+        }
+        
+        void ShowMessage(int ligne, string message)
+        {
+            charDisplay.Clear();
+            charDisplay.CursorHome();
+            charDisplay.SetCursorPosition(ligne - 1, 0);
+            charDisplay.Print(message);
         }
     }
 }
