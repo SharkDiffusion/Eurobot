@@ -72,11 +72,12 @@ namespace PixySPIGadgeteer
     //pin 6: GND
     //----------------------------------------------------------------------------------------
 
-    //----------------------------------------------------------------------------------------
+    //---------------------------------------------------------------------------------------
     // WARNING: Be careful, if you get this wiring wrong you may permanently damage your board or the Pixycam - take care!
     //----------------------------------------------------------------------------------------
     // Therefore connect gadgeteer to pixycam, you will need to cut the pixycam cable supplied, and splice it into a gadgeteer cable, or use a breakout module for gadgeteer.
     // The wiring required is:
+    // Breakout -> Cam
     // gadgeteer pin 2 -> pixycam pin 2 (5v)
     // gadgeteer pin 7 -> pixycam pin 4 (MOSI)
     // gadgeteer pin 8 -> pixycam pin 1 (MISO)
